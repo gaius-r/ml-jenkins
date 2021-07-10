@@ -10,5 +10,7 @@ RUN pip3 install scikit-learn
 
 COPY fiftystartups_model.pk1 /
 
-RUN python3 startup_code.py
+COPY startup_code.py /
+
+CMD python3 startup_code.py
 
