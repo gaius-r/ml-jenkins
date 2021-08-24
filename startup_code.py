@@ -1,3 +1,3 @@
 import joblib
 model = joblib.load("fiftystartups_model.pk1")
-print(model.predict([[165349.20, 137497.80, 476994.10, 1, 0]]))
+print(model.predict([[142107.20, 91391.80, 366168.10, 0, 1]]))
